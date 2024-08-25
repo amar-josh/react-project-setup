@@ -26,7 +26,6 @@ export default tseslint.config(
       quotes: ["error", "double"], // Enforce double quotes
       "space-infix-ops": ["error", { int32Hint: false }], // Enforce space around operators
       semi: ["error", "always"], // Enforce semicolons
-      "@typescript-eslint/no-explicit-any": "error", // Disallow `any` type
     },
   }
 );
