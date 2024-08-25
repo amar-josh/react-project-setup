@@ -3,8 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+const data: any[] = ["1", "2", "4", "5"];
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(data[1]);
+  console.log(data[3]);
 
   return (
     <>
