@@ -7,7 +7,6 @@ dist/
 # Test Coverage
 coverage/
 
-
 # Local environment files
 .env
 .env.local
