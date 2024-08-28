@@ -4,6 +4,10 @@ node_modules/
 # Vite build output
 dist/
 
+# Test Coverage
+coverage/
+
+
 # Local environment files
 .env
 .env.local
